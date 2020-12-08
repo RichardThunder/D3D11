@@ -28,7 +28,7 @@ int CALLBACK WinMain(
         0, pClassName, L"First Window",
         WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU, 200, 200, 640, 480,
         nullptr, nullptr, hInstance, nullptr);
-    ShowWindow(hwnd, SW_SHOW);
+    ShowWindow(hwnd, SW_SHOW);//显示窗口
     while (true);
     return 0;
 }
